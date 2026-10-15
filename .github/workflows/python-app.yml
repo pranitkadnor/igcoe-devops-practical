@@ -38,7 +38,7 @@ jobs:
       run: |
         pytest
 
-   sonarqube:
+  sonarqube:
     name: SonarQube
     runs-on: windows-latest
     steps:
